@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_app_flutter/images_assets_home.dart';
+import 'package:music_app_flutter/products/view/components/images_assets_home.dart';
 
 class HomePageBar extends StatelessWidget {
   const HomePageBar({

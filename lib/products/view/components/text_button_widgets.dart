@@ -6,11 +6,13 @@ class TextButtonWidgetsHome extends StatelessWidget {
   final String text;
   final Color colorButton;
   final double textSize;
+  final String pageRouteName;
   const TextButtonWidgetsHome({
     Key? key,
     required this.text,
     required this.colorButton,
     required this.textSize,
+    required this.pageRouteName,
   }) : super(key: key);
 
   @override
@@ -18,7 +20,9 @@ class TextButtonWidgetsHome extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: OutlinedButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).pushNamed(pageRouteName);
+        },
         style: ButtonStyle(
           backgroundColor:
               MaterialStateProperty.all(Color.fromARGB(255, 21, 21, 21)),
