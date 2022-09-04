@@ -36,7 +36,7 @@ class TextButtonWidgetsHome extends StatelessWidget {
             style: TextStyle(
                 fontSize: textSize,
                 color: colorButton,
-                fontWeight: FontWeight.w900),
+                fontWeight: FontWeight.w700),
           ),
         ),
       ),
