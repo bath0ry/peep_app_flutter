@@ -25,7 +25,7 @@ const String textBioPeep = 'Mixing outsider, alternative rock angst with woozy, 
     'into suicidal thoughts and battles with depression. He also collaborated' +
     'regularly with Atlanta rapper iLoveMakonnen, toured across the world, ' +
     'came out as bisexual and worked with DJ Marshmello, but his heavy drug' +
-    'use and mental health issues were never far from the surface.\n \nOn his' +
+    'use and mental health issues were never far from the surface.\n \n On his ' +
     'Twitter account in February 2017 he declared himself a depressed drug' +
     'addict who is nearing breaking point, and months later he was found' +
     'dead before a gig in Tucson, Arizona having suffered an accidental overdose.\n \n' +

@@ -13,11 +13,9 @@ class ImagesAssets extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FittedBox(
-      child: Image.asset(
-        imageAsset,
-        height: heightImage,
-      ),
+    return Image.asset(
+      imageAsset,
+      height: heightImage,
     );
   }
 }

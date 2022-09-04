@@ -15,13 +15,10 @@ class HomePageBar extends StatelessWidget {
               bottomLeft: Radius.circular(35),
               bottomRight: Radius.circular(35))),
       child: const Center(
-        child: Padding(
-          padding: EdgeInsets.only(bottom: 50),
-          child: ImagesAssets(
-            imageAsset:
-                'assets/images/imagem_2022-09-01_114635591-removebg-preview.png',
-            heightImage: 200,
-          ),
+        child: ImagesAssets(
+          imageAsset:
+              'assets/images/imagem_2022-09-04_135700474-removebg-preview.png',
+          heightImage: 330,
         ),
       ),
     );

@@ -10,6 +10,8 @@ class HomePageWidgets extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var size = MediaQuery.of(context).size;
+
     return Column(
       children: [
         const Padding(
@@ -21,71 +23,82 @@ class HomePageWidgets extends StatelessWidget {
         const SizedBox(
           height: 10,
         ),
-        FittedBox(
-          child: Row(
-            children: const [
-              Padding(
-                padding: EdgeInsets.only(top: 5, left: 5),
-                child: TextButtonWidgetsHome(
-                  text: 'Top Tracks',
-                  colorButton: Color.fromARGB(255, 247, 144, 228),
-                  textSize: 35,
-                  pageRouteName: 'top_tracks_page',
+        Row(
+          children: [
+            SizedBox(
+              width: size.width / 2,
+              child: TextButtonWidgetsHome(
+                text: 'Top Tracks',
+                colorButton: Color.fromARGB(255, 247, 144, 228),
+                textSize: 35,
+                pageRouteName: 'top_tracks_page',
+              ),
+            ),
+            SizedBox(
+              width: size.width / 2,
+              child: Align(
+                alignment: Alignment.centerRight,
+                child: ImagesAssets(
+                  imageAsset:
+                      'assets/images/imagem_2022-09-01_151326705-removebg-preview.png',
+                  heightImage: 400,
                 ),
               ),
-              ImagesAssets(
-                imageAsset:
-                    'assets/images/imagem_2022-09-01_151326705-removebg-preview.png',
-                heightImage: 400,
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
-        FittedBox(
-          child: Row(
-            children: const [
-              ImagesAssets(
-                imageAsset:
-                    'assets/images/imagem_2022-09-02_142807564-removebg-preview.png',
-                heightImage: 406,
-              ),
-              Padding(
-                padding: EdgeInsets.only(
-                  left: 5,
-                ),
-                child: TextButtonWidgetsHome(
-                  text: 'Albums',
-                  colorButton: Color.fromARGB(255, 247, 144, 228),
-                  textSize: 35,
-                  pageRouteName: 'albums_page',
+        Row(
+          children: [
+            SizedBox(
+              width: size.width / 2,
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: ImagesAssets(
+                  imageAsset:
+                      'assets/images/imagem_2022-09-02_142807564-removebg-preview.png',
+                  heightImage: 403,
                 ),
               ),
-            ],
-          ),
+            ),
+            SizedBox(
+              width: size.width / 2,
+              child: TextButtonWidgetsHome(
+                text: 'Albums',
+                colorButton: Color.fromARGB(255, 247, 144, 228),
+                textSize: 35,
+                pageRouteName: 'albums_page',
+              ),
+            ),
+          ],
         ),
         const SizedBox(
           height: 80,
         ),
-        FittedBox(
-          child: Row(
-            children: [
-              const ImagesAssets(
-                imageAsset:
-                    'assets/images/imagem_2022-09-02_174148798-removebg-preview.png',
-                heightImage: 134,
+        Row(
+          children: [
+            SizedBox(
+              width: size.width / 2,
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: const ImagesAssets(
+                  imageAsset:
+                      'assets/images/imagem_2022-09-02_174148798-removebg-preview.png',
+                  heightImage: 134,
+                ),
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: const [
-                  ImagesAssets(
-                    imageAsset:
-                        'assets/images/imagem_2022-09-02_173058463-removebg-preview.png',
-                    heightImage: 134,
-                  ),
-                ],
+            ),
+            SizedBox(
+              width: size.width / 2,
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: ImagesAssets(
+                  imageAsset:
+                      'assets/images/imagem_2022-09-02_173058463-removebg-preview.png',
+                  heightImage: 134,
+                ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
         const Padding(
           padding: EdgeInsets.all(40.0),

@@ -31,12 +31,14 @@ class TextButtonWidgetsHome extends StatelessWidget {
         ),
         child: Padding(
           padding: const EdgeInsets.all(10.0),
-          child: Text(
-            text,
-            style: TextStyle(
-                fontSize: textSize,
-                color: colorButton,
-                fontWeight: FontWeight.w900),
+          child: FittedBox(
+            child: Text(
+              text,
+              style: TextStyle(
+                  fontSize: textSize,
+                  color: colorButton,
+                  fontWeight: FontWeight.w900),
+            ),
           ),
         ),
       ),

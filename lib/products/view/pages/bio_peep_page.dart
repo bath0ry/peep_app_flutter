@@ -9,6 +9,7 @@ class BioPeepPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.black),
       body: SingleChildScrollView(
@@ -16,7 +17,7 @@ class BioPeepPage extends StatelessWidget {
           children: [
             ImagesAssets(
                 imageAsset: 'assets/images/kindpng_3602003.png',
-                heightImage: 590),
+                heightImage: 366),
             Container(
               decoration: BoxDecoration(
                 color: Colors.black,
@@ -43,7 +44,7 @@ class BioPeepPage extends StatelessWidget {
                       child: Text(
                         textBioPeep,
                         style: TextStyle(
-                          fontSize: 15.5,
+                          fontSize: 15.8,
                           fontWeight: FontWeight.w400,
                         ),
                         maxLines: 100,
