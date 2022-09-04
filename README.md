@@ -1,6 +1,6 @@
 # peep_app_flutter
 
-A music app made in flutter for studying api with dio.
+A musical artist bio app made in flutter for studying api with dio.
 
 This app is a bio of Lil Peep. (musical artist).
 
