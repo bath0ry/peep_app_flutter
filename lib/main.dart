@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'bio_peep': (context) => const BioPeepPage(),
         'albums_page': (context) => const AlbumsPage(),
-        'top_tracks_page': (context) => const TopTracksPage()
+        'top_tracks_page': (context) => TopTracksPage()
       },
       title: 'MusicPeep',
       debugShowCheckedModeBanner: false,

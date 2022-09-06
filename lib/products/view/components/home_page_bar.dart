@@ -12,13 +12,13 @@ class HomePageBar extends StatelessWidget {
       decoration: const BoxDecoration(
           color: Color.fromARGB(255, 0, 0, 0),
           borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(35),
-              bottomRight: Radius.circular(35))),
+              bottomLeft: Radius.circular(40),
+              bottomRight: Radius.circular(40))),
       child: const Center(
         child: ImagesAssets(
           imageAsset:
               'assets/images/imagem_2022-09-04_135700474-removebg-preview.png',
-          heightImage: 330,
+          heightImage: 350,
         ),
       ),
     );

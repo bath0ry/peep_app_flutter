@@ -14,14 +14,9 @@ class HomePageWidgets extends StatelessWidget {
 
     return Column(
       children: [
-        const Padding(
-          padding: EdgeInsets.only(
-            bottom: 20,
-          ),
-          child: HomePageBar(),
-        ),
+        HomePageBar(),
         const SizedBox(
-          height: 10,
+          height: 80,
         ),
         Row(
           children: [

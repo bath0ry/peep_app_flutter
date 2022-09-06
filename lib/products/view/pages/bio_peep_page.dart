@@ -15,9 +15,9 @@ class BioPeepPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ImagesAssets(
-                imageAsset: 'assets/images/kindpng_3602003.png',
-                heightImage: 366),
+            Image.asset(
+              'assets/images/kindpng_3602003.png',
+            ),
             Container(
               decoration: BoxDecoration(
                 color: Colors.black,
@@ -31,7 +31,7 @@ class BioPeepPage extends StatelessWidget {
                   Text(
                     'Lil Peep',
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 30,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
@@ -44,7 +44,7 @@ class BioPeepPage extends StatelessWidget {
                       child: Text(
                         textBioPeep,
                         style: TextStyle(
-                          fontSize: 15.8,
+                          fontSize: 20,
                           fontWeight: FontWeight.w400,
                         ),
                         maxLines: 100,

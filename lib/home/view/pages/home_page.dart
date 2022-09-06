@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
+        backgroundColor: Color.fromARGB(255, 245, 137, 173),
         body: SingleChildScrollView(
           child: HomePageWidgets(),
         ),
