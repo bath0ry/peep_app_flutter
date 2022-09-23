@@ -42,7 +42,7 @@ class BioPeepPage extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Text(
-                        textBioPeep,
+                        textBioPeeps,
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w400,
