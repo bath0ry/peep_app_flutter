@@ -22,7 +22,7 @@ class BioPeepPage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.black,
               ),
-              width: 800,
+              width: 801,
               child: Column(
                 children: [
                   SizedBox(
