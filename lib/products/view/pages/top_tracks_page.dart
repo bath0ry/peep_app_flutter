@@ -9,7 +9,9 @@ class TopTracksPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.black),
       body: Column(
-        children: [],
+        children: [
+          Container(),
+        ],
       ),
     );
   }
