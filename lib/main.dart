@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         'albums_page': (context) => const AlbumsPage(),
         'top_tracks_page': (context) => TopTracksPage()
       },
-      title: 'MusicPeep',
+      title: 'a',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
