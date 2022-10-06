@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         'bio_peep': (context) => const BioPeepPage(),
-        'albums_page': (context) => const AlbumsPage(),
+        'albums_page': (context) => AlbumsPage(),
         'top_tracks_page': (context) => TopTracksPage()
       },
       title: 'MusicPeep',
