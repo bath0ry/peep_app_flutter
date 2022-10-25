@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:music_app_flutter/products/utils/constants.dart';
+import 'package:music_app_flutter/products/utils/constants_bio.dart';
 import 'package:music_app_flutter/products/view/components/images_assets_home.dart';
 
 class BioPeepPage extends StatelessWidget {
