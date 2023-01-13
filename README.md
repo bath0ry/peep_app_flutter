@@ -10,13 +10,14 @@ A app have a top track, albums e a bio of the artist.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Aplicativo feito para prática de construção de tela, responsividade e integração com API
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+No aplicativo ele tem 3 botões na home que redireciona para 3 página. Um para as melhores músicas, um para os melhores albuns do artista e outro que leva
+para página de biografia do artista.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/110061019/212274496-0114c9f8-cf04-4198-8bf8-ea5236023f7c.png)
+
+![image](https://user-images.githubusercontent.com/110061019/212274533-d9bf6c00-b4fd-4510-ae12-1a2ba74e0e17.png)
+
+![image](https://user-images.githubusercontent.com/110061019/212274562-26676ac1-e9a2-484c-a451-e74b7e210fb8.png)
