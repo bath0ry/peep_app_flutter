@@ -3,6 +3,8 @@ import 'package:music_app_flutter/products/view/components/home_page_bar.dart';
 import 'package:music_app_flutter/products/view/components/images_assets_home.dart';
 import 'package:music_app_flutter/products/view/components/text_button_widgets.dart';
 
+import 'package:music_app_flutter/products/utils/constants_bio.dart';
+
 class HomePageWidgets extends StatelessWidget {
   const HomePageWidgets({
     Key? key,

@@ -1,4 +1,4 @@
-const String textBioPeeps = 'Mixing outsider, alternative rock angst with woozy, mumbling,' +
+String textBioPeeps = 'Mixing outsider, alternative rock angst with woozy, mumbling,' +
     'underground hip-hop, DIY rapper Lil Peep became a huge star with' +
     'the help of social media and was dubbed "the future of Emo"' +
     'by the Pitchfork website.\n \nHe tragically died of an overdose at the age of 21 in 2017.\n' +
